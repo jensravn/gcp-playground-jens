@@ -1,0 +1,13 @@
+runtime: python27
+threadsafe: true
+api_version: 1
+service: docs
+
+handlers:
+  - url: /
+    static_files: static/index.html
+    upload: static/index.html
+
+  - url: /(.*\.md)$
+    static_files: \1
+    upload: .*\.md$

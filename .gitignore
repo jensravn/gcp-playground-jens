@@ -1,4 +1,8 @@
-.idea/
 node_modules/
 
 .$architecture.drawio.svg.bkp
+
+.gcloudignore
+
+.terraform
+.terraform.lock.hcl
