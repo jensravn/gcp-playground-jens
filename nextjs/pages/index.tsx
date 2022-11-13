@@ -13,6 +13,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Link href="/crawl">
+          <a>Crawl</a>
+        </Link>
+        <br />
+
         <Link href="/products">
           <a>Products</a>
         </Link>
