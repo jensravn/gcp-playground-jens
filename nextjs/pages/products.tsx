@@ -19,7 +19,6 @@ export default function Products() {
         <meta name="description" content="Fun fun fun" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className={styles.main}>
         <h1 className={styles.title}>Product</h1>
         <br />
